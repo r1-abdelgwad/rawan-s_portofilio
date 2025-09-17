@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rawan Abdelgwad | AI & ML Engineer </title>
+  <style>
+    /* ----- General Styling ----- */
+    body {
+  margin: 0;
+  font-family: "Cairo", "Poppins", Arial, sans-serif;
+  line-height: 1.8;
+  background: #f4f6f8;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;  
+    scroll-behavior: smooth;
+     
+}
+
+/* العناوين */
+h1, h2, h3 {
+  font-family: "Poppins", "Cairo", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+}
+h1 { font-size: 2.6rem; }
+h2 { 
+  font-size: 2rem; 
+  color: #2c5282;
+  border-bottom: 3px solid #d1d5db;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+h3 { font-size: 1.4rem; color: #1e3a8a; }
+
+/* ----- Header ----- */
+header {
+  background: linear-gradient(135deg, #2c5282, #1e3a8a);
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+header p {
+font-family: "Cairo", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 0.8rem;
+  opacity: 0.95;
+  font-weight: 600 ;
+}
+p, li {
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: 20px; }
+
+/* ----- Navigation ----- */
+nav {
+  background: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav a {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #60a5fa;
+}
+
+/* ----- Section ----- */
+section {
+  padding: 1.5rem 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ----- Projects Grid ----- */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.card {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.2);
+}
+.card p {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.card a:hover {
+  background: #1e40af;
+}
+
+/* ----- Contact Section ----- */
+#contact p {
+  font-size: 1.1rem;
+}
+#contact a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ----- Footer ----- */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #1f2937;
+  color: white;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+/* ----- Section ----- */
+section {
+  padding: 3rem 1rem;
+  max-width: 1100px;
+  margin: auto;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+/* alternated backgrounds */
+#about {
+  background: linear-gradient(135deg, #f9fafb, #e5e7eb);
+}
+#skills {
+  background: linear-gradient(135deg, #edf2f7, #e2e8f0);
+}
+#projects {
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+}
+#Certifications {
+  background: linear-gradient(135deg, #edf2f7, #e0f2fe);
+}
+#Volunteers {
+  background: linear-gradient(135deg, #f9fafb, #e5e7eb);
+}
+#contact {
+  background: linear-gradient(135deg, #e0f2fe, #f0f9ff);
+}
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="rawana.png" alt="Rawan Photo" class="profile-pic">
+
+    <h1>Rawan Abdelgwad Ibrahem</h1>
+    <p> AI & Machine Learning Engineer | NLP specialist</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#Education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#Volunteers">Volunteers & Awards</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p> I'm an Artificial Intelligence Engineer passionate about solving real-world problems using technology. My experience includes working on projects like sentiment analysis and spine x-ray classification and heart failure prediction. I enjoy building intelligent systems that make life safer and more efficient.
+
+I have strong foundations in Python, machine learning, and deep learning, and I'm continuously improving my skills through hands-on projects, Kaggle competitions, and academic research. I'm always excited to collaborate, learn, and grow in the fields of AI, embedded systems, and healthcare technology.  </p>
+  </section>
+ <section id="Education">
+    <h2>Education & Certifications</h2>
+    <p> • Faculty of Artificial Intelligence, Kafrelsheikh University           </p>
+     <p>• Level 3 Training – ODC & Digital Hub (2025)  : <br>
+Accepted and successfully completed advanced AI training covering [ Generative Adversarial Networks (GANs), Natural Language Processing (NLP), Computer Vision (CV)Machine Learning Operations (MLOps)].</p>
+    
+    <p>•	AI Level 3 Training Scholarship – British University in Egypt (BUE) & Impact Platform (2025): <br>
+Fully funded program supported by the Rotary Club at BUE, in collaboration with the School of Continuing Education and Impact Platform. Covered: [Generative Adversarial Networks (GANs),Natural Language Processing (NLP), Computer Vision (CV)]
+</a></p>
+    <p>•	Python Programming Basics – Mahara-Tech / ITI (2025):<br>
+
+
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><b>Technical:</b> Python, Machine Learning, Deep Learning, NLP</li>
+      <li><b>Tools:</b> MLflow, Jupyter, TensorFlow, Pandas, Seaborn, Matplotlib</li>
+      <li><b>Soft Skills:</b> Communication, Teamwork, Adaptability, Problem-solving</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Spine X-Ray Analysis Using Deep Learning:</h3>
+        <p>•	 To develop a deep learning model capable of analyzing spine X-rays for automated diagnosis of conditions like scoliosis, kyphosis, or degenerative diseases</p>
+        <a href="https://www.kaggle.com/code/r1abdelgwad/spine-x-ray-classification" target="_blank">View on kaggle</a>
+      </div>
+      <div class="card">
+        <h3>Heart Failure Prediction Using Machine Learning:</h3>
+        <p>•	 Created a model to identify individuals at risk of hospitalization or death due to heart failure.</p>
+        <a href="https://www.kaggle.com/code/r1abdelgwad/heart-failure-prediction" target="_blank">View on kaggle</a>
+      </div>
+      <div class="card">
+        <h3>	Species Classification using MobileNetV2:</h3>
+        <p>Computer Vision | Python, TensorFlow/Keras. Developed an image classification model to identify butterfly species from photographs using transfer learning with MobileNetV2.</p>
+        <a href="https://www.kaggle.com/code/r1abdelgwad/butterfly-classification-mobilenetv2" target="_blank">View on kaggle</a>
+      </div>
+      <div class="card">
+        <h3>	Arabic Sentiment Analysis using BERT:</h3>
+        <p>• Natural Language Processing | Python, tensorflow, Hugging Face Transformers .Built a sentiment classification model for Arabic text using a pre-trained BERT model (AraBERT/ArabicBERT).</p>
+        <a href="https://www.kaggle.com/code/r1abdelgwad/arabic-sentiment-using-bert-and-classification" target="_blank">View on kaggle</a>
+    </div>
+      <div class="card">
+        <h3>Variational Autoencoder (VAE) & DCGAN on Fashion-MNIST:</h3>
+        <p>Implemented and trained generative models (VAE and DCGAN) to generate synthetic fashion images, improving understanding of latent space representation and adversarial training</p>
+        <a href="https://www.kaggle.com/code/r1abdelgwad/vae-dcgan-fashion-dataset" target="_blank">View on kaggle</a>
+    </div>
+          <div class="card">
+        <h3>•	Denoising Autoencoder on Fashion-MNIST :</h3>
+        <p>Implemented and trained an autoencoder to remove noise from images, improving image quality and demonstrating feature extraction capability. Evaluated performance by comparing noisy vs. reconstructed outputs</p>
+        <a href="https://www.kaggle.com/code/r1abdelgwad/denoising-using-autoencoder" target="_blank">View on kaggle</a>
+    </div>
+  </section>
+
+
+
+  <section id="Volunteers & Awards ">
+    <h2>Volunteers & Awards </h2>
+    <p>•	Machine Learning Instructor – IEEE Damietta Student Branch (2025)<br>
+Delivered workshops on Python and machine learning, guiding students through hands-on projects and simplifying complex concepts.
+</p>
+    <p>• Ranked 2nd in GDSC CU-FCAI Workshops 23/24<br> Final Project Successfully completed the GDSC CU-FCAI Workshops 23/24, organized by the Google Developer Student Club at Cairo University - FCAI Chapter. Gained advanced technical skills and ranked 2nd in the final project, showcasing problem-solving, innovation, and teamwork.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact <p>✨Feel free to reach out to me for collaborations, questions, or opportunities!</p></h2>
+    <p>📧 Email: rawanabdelgwad5@gmail.com</p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/rawan-abdelgwad-90754526b" target="_blank">linkedin.com/in/rawan-abdelgwad</a></p>
+    <p>💻 Kaggle: <a href="https://www.kaggle.com/r1abdelgwad" target="_blank">kaggle.com/r1abdelgwad</a></p>
+  
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rawan - All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
